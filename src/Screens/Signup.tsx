@@ -118,8 +118,8 @@ const Signup = () => {
 
     return (
         <>
-            <div className="flex justify-center items-center bg-neutral-900 min-h-screen w-screen font-sans">
-                <div className="w-full max-w-md p-8 space-y-6 bg-neutral-800 rounded-2xl shadow-lg border border-neutral-700">
+            <div className="flex justify-center items-center bg-neutral-900 min-h-screen w-full font-sans">
+                <div className="w-full max-w-md max-sm:w-full p-8 space-y-6 bg-neutral-800 rounded-2xl shadow-lg border border-neutral-700">
                     <div className="text-center">
                         <h1 className="text-3xl font-bold text-white">Create Account</h1>
                         <p className="text-neutral-400 mt-2">Join us and start your journey!</p>
