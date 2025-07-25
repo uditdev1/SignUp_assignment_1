@@ -10,7 +10,7 @@ const AllComponents = () => {
     const { } = useContext(HomeContext);
 
     return (
-        <div className="bg-neutral-900 max-w-screen overflow-hidden pb-4 min-h-screen ">
+        <div className="bg-neutral-900 max-sm:px-2 max-w-screen overflow-hidden pb-4 min-h-screen ">
             <BrowserRouter>
                 <Header />
                 <Routes>
