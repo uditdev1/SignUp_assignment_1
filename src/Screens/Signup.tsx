@@ -110,7 +110,7 @@ const Signup = () => {
             navigate("/")
         } catch (error: any) {
             console.error("Verification failed:", error.message);
-            setErrors({ ...errors, form: <span className="text-red-400">{error.message}</span> });
+            setErrors({ ...errors, form: error.message);
         } finally {
             setIsLoading(false);
         }
